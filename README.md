@@ -58,9 +58,9 @@ Vygeneruje potřebnou sůl k získání tokenu. Pro správnou funkci je třeba m
 Vygeneruje token pro dnešní den (musí se generovat každý den). Je třeba mít sůl pro vygenerování tokenu. Token je třeba pro requesty.
 
 #### request(module) => promise(data)
-Získá data z modulu. Je třeba mít nastavený token. Seznam modulů dostupný (zde)[https://github.com/bakalari-api/bakalari-api].
+Získá data z modulu. Je třeba mít nastavený token. Seznam modulů dostupný [zde](https://github.com/bakalari-api/bakalari-api).
 
 *Ne všechny funkce třídy jsou dokumentované, avšak dané funkce jsou pouze pro interní použití.*
 
 # Podpoření
-Můžete mne podpořit na (patreonu)[http://patreon.com/danbulant].
+Můžete mne podpořit na [patreonu](http://patreon.com/danbulant).
