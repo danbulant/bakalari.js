@@ -1,5 +1,11 @@
 # bakalari.js
-Jednoduchá knihovna pro API bakalářů
+Jednoduchá knihovna pro API bakalářů.
+
+# Instalace
+Pokud máte npm, můžete jednoduše nainstalovat:
+`npm install bakalari-js --save`
+**NPM je momentálně nutnost, jelikož API vyžaduje 2 knihovny (`got` na requesty a `fast-xml-parser` na parsovaní XML)**
+
 
 Pro seznam dostupných modulů běžte na neoficiální dokumentaci [zde](https://github.com/bakalari-api/bakalari-api).
 
