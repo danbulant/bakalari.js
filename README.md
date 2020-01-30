@@ -6,6 +6,10 @@ Pokud máte npm, můžete jednoduše nainstalovat:
 `npm install bakalari-js --save`
 **NPM je momentálně nutnost, jelikož API vyžaduje 2 knihovny (`got` na requesty a `fast-xml-parser` na parsovaní XML)**
 
+# Bez instalace
+Pokud nemáte NPM či používáte zcela jiný jazyk, je k dispozici JSON API. Upozorňuji však, že posílání požadavků na API momentálně **není bezpečné**, jelikož nemám nastavený SSL certifikát a heslo se posílá v rámci URL. Toto však bude v nejbližší době opraveno.
+`http://api.danbulant.eu/v1/bakalari/<modul>/<jmeno>/<domena>/<heslo>`
+kde se proměnné <> nahradí hodnotama.
 
 Pro seznam dostupných modulů běžte na neoficiální dokumentaci [zde](https://github.com/bakalari-api/bakalari-api).
 
